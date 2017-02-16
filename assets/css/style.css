@@ -1,0 +1,344 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+	font-size: 18px;
+	color: #777;
+	line-height: 34px;
+	background: url("../images/footer_lodyas.png");
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	clear:both;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+}
+
+h1,h2,h3,p {
+	margin-bottom: 20px;
+}
+ 
+p:last-child {
+	margin-bottom: 0;
+}
+
+h1,h2,h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: 700;
+}
+
+h1 {
+	padding-bottom: 20px;
+	font-size: 30px;
+	line-height: 49px;
+	border-bottom: 3px solid #ddd;
+}
+
+h2,h3 {
+	font-size: 22px;
+}
+
+#masthead {
+	 position: fixed;
+  	z-index: 99;
+  	margin: 0 0 30px;
+  	overflow: auto;
+  	width: 100%;
+  	color: #fff;
+  	background: #fff;
+  	border-bottom: 2px solid #ccc;
+}
+
+#logo {
+  width: 250px;
+  height: 90px;
+  float: left;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  line-height: 90px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 15px;
+  padding-left: 15px;
+  color: #999;
+  text-decoration: none;
+  line-height: 18px;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+	border-left: 0 none;
+}
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  color: #fff;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+}
+
+.sidebar {
+  padding: 30px;
+  width: 100%;
+  max-width: 270px;
+  float: right;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+	
+}
+
+h3,.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+
+.linkpic {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.linkpic:last-child {
+	margin-right: 0;
+}
+
+
+
+#main-container {
+	padding-top: 130px;
+}
+
+.main-section {
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 650px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.work {
+  position: relative;
+  width: 274px;
+  overflow: auto;
+  float: left;
+  margin: 20px 0 25px;
+	
+}
+
+.work:nth-child(even) {
+	margin-right:40px;
+}
+
+.work img {
+	width:100%;
+	border:0 none;
+	opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.mypic {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  float: left;
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+/*desktop dimension */
+@media screen and (max-width: 980px) {
+
+body {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2,h3 {
+  font-size: 18px;
+}
+
+.mypic {
+  float:none;
+  width: 100%;
+}
+
+.container {
+  max-width: 730px;
+}
+
+.sidebar {
+  max-width: 235px;
+  padding: 20px;
+}
+
+.linkpic {
+  width: 55px;
+  height: 55px;
+}
+
+.main-section {
+  max-width: 440px;
+  padding: 20px;
+}
+
+.work {
+  width:400px;
+}
+
+textarea {
+  height: 200px;
+}
+
+}
+/*iPad dimension */
+@media screen and (max-width: 768px) {
+
+.mypic {
+  width: 190px;
+  float:left;
+}
+
+.work {
+  width: 274px;
+}
+
+.sidebar {
+  width: 100%;
+  clear:both;
+  float:left;
+  max-width: 750px;  
+}
+
+.container {
+  width: 630px;
+}
+
+.main-section {
+  max-width: 750px;
+  width: 100%;
+}
+
+textarea {
+  height: 200px;
+}
+
+}
+/* iPhone dimension */
+@media screen and (max-width: 640px) {
+  #masthead {
+   position:static;   
+}
+
+#logo {
+  clear:both;
+  width: 100%;
+}
+
+#main-container {
+  padding-top: 0px;
+}
+
+nav {
+  clear:both;
+  width: 100%;
+  margin-top: 8px;
+}
+
+nav a {
+  clear:both;
+  padding-left:60px;
+  padding-right: 60px;
+  padding-bottom: 15px;
+}
+
+.work {
+  width: 515px;
+}
+
+.mypic {
+  float:none;
+  width:250px;
+}
+
+.container {
+  width: 570px;
+
+}
+
+.main-section {
+  max-width: 590px;
+  width:100%;
+}
+
+.sidebar {
+  max-width: 590px;
+  width:100%;
+}
+
+}
